@@ -1,4 +1,4 @@
-const { NotImplementedError } = require('../extensions/index.js');
+const { NotImplementedError } = require('../lib/errors');
 
 /**
  * Implement the Stack with a given interface via array.
@@ -32,5 +32,5 @@ class Stack {
 }
 
 module.exports = {
-  Stack
+  Stack,
 };
