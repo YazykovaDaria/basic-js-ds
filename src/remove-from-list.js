@@ -1,5 +1,5 @@
 const { NotImplementedError } = require('../lib/errors');
-// const { ListNode } = require('../extensions/list-node.js');
+const { ListNode } = require('../extensions/list-node.js');
 
 /**
  * Given a singly linked l of integers l and an integer k,
